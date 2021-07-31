@@ -9,4 +9,18 @@ export class Tab2Page {
 
   constructor() {}
 
+  fizzBuzz(iteration: number): string {
+    let result = '';
+
+    if (iteration % 3 === 0) {
+      result += 'Fizz';
+    }
+    if (iteration % 5 === 0) {
+      result += 'Buzz';
+    }
+    if (!result) {
+      result += iteration;
+    }
+    return result;
+  }
 }
