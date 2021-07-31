@@ -1,0 +1,19 @@
+.welcome-text {
+  padding: 10px;
+  text-align: center;
+
+  span {
+    display: block;
+    margin: 20px;
+  }
+
+  &-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &-body {
+    font-size: 20px;
+    color: gray;
+  }
+}
